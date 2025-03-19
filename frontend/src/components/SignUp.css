@@ -1,0 +1,97 @@
+.SignUp {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.SignUp h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.SignUp form {
+  display: flex;
+  flex-direction: column;
+}
+
+.SignUp input {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.SignUp button {
+  background-color: #20b2aa; /* Light Sea Green */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.SignUp button:hover {
+  background-color: #008080; /* Teal */
+}
+
+.social-logins {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.social-logins button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  color: #333;
+  border: 1px solid #ccc;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.social-logins button img {
+  width: 16px; /* Decrease the size of the logo */
+  height: 16px; /* Decrease the size of the logo */
+  margin-right: 10px;
+}
+
+.social-logins .google-login {
+  background-color: #4285f4; /* Google Blue */
+  color: white;
+}
+
+.social-logins .apple-login {
+  background-color: #000000; /* Apple Black */
+  color: white;
+}
+
+.social-logins .meta-login {
+  background-color: #1877f2; /* Meta Blue */
+  color: white;
+}
+
+.social-logins .discord-login {
+  background-color: #7289da; /* Discord Blue */
+  color: white;
+}
+
+.social-logins button:hover {
+  background-color: #f0f0f0;
+  border-color: #999;
+}
